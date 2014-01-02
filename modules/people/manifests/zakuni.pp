@@ -4,7 +4,7 @@ class people::zakuni {
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/dotfiles"
 
-  file { $my:
+  file { $home:
     ensure  => directory
   }
 
