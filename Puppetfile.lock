@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-emacs
   specs:
-    emacs (1.1.0)
+    emacs (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -101,7 +101,7 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.3.4)
   dnsmasq (= 1.0.0)
-  emacs (= 1.1.0)
+  emacs (= 1.1.1)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
