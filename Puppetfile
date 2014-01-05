@@ -48,7 +48,7 @@ github "openssl",    "1.0.0"
 github "phantomjs",  "2.0.2"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.2.0"
-github "ruby",       "6.9.0"
+github "ruby",       "7.1.1"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
@@ -56,4 +56,5 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "puppet-module-data", "0.0.1", :repo => "ripienaar/puppet-module-data"
 github "emacs",      "1.1.1"
