@@ -77,7 +77,7 @@ node default {
   class { 'ruby::global':
     version => '2.1.0'
   }
-  ruby::version { '2.0.0': }
+  ensure_resource('ruby::version', '2.0.0')
 
   # common, useful packages
   package {
