@@ -84,6 +84,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
@@ -124,5 +129,6 @@ DEPENDENCIES
   ruby (= 7.1.1)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  tmux (= 1.0.2)
   xquartz (= 1.1.0)
 

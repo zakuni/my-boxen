@@ -1,5 +1,6 @@
 class people::zakuni {
   include emacs
+  include tmux
 
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/dotfiles"

@@ -58,3 +58,4 @@ github "xquartz",    "1.1.0"
 
 github "puppet-module-data", "0.0.1", :repo => "ripienaar/puppet-module-data"
 github "emacs",      "1.1.1"
+github "tmux",       "1.0.2"
