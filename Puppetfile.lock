@@ -69,6 +69,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -92,6 +97,11 @@ GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
+
+GITHUBTARBALL
+  remote: jfelchner/puppet-powerline
+  specs:
+    powerline (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -124,7 +134,9 @@ DEPENDENCIES
   openssl (= 1.0.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
+  powerline (= 1.0.0)
   puppet-module-data (= 0.0.1)
+  python (= 1.1.1)
   repository (= 2.2.0)
   ruby (= 7.1.1)
   stdlib (= 4.1.0)
