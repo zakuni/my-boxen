@@ -3,6 +3,7 @@ class people::zakuni {
   include tmux
   include python
   include powerline
+  include redis
 
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/dotfiles"
