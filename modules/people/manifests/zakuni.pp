@@ -5,6 +5,7 @@ class people::zakuni {
   include powerline
   include redis
   include vagrant
+  include virtualbox
 
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/dotfiles"
