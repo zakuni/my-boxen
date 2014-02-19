@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.0.4)
+    vagrant (3.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -153,6 +153,6 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   tmux (= 1.0.2)
-  vagrant (= 3.0.4)
+  vagrant (= 3.0.5)
   xquartz (= 1.1.0)
 
