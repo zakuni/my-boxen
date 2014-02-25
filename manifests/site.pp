@@ -75,7 +75,7 @@ node default {
   # include ruby::2_0_0
 
   class { 'ruby::global':
-    version => '2.1.0'
+    version => '2.1.1'
   }
   ensure_resource('ruby::version', '2.0.0')
 
