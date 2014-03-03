@@ -79,6 +79,11 @@ node default {
   }
   ensure_resource('ruby::version', '2.0.0')
 
+  ruby::gem { "rbenv-rehash for 2.1.1":
+    gem     => 'rbenv-rehash',
+    ruby    => "2.1.1"
+  }  
+
   # common, useful packages
   package {
     [
